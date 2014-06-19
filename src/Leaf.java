@@ -1,4 +1,4 @@
-import java.nio.file.FileSystem;
+
 
 
 public class Leaf extends Node{
@@ -15,6 +15,7 @@ public class Leaf extends Node{
 	
 	private void allocateSpace(int size){
 		FileSystem.fileStorage.Alloc(size, this);
+		
 	}
 	
 }
